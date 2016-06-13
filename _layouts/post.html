@@ -5,8 +5,8 @@ body_class: post-template
 
 {% if page.image %}
 <div id="feature_image">
-  <div class="inner" style="background-image: url('{{ page.image }}')">
-    <img src='{{ page.image }}'>
+  <div class="inner" style="background-image: url('{{ page.image | prepend: site.github.url }}')">
+    <img src='{{ page.image | prepend: site.github.url }}'>
   </div>
 </div>
 {% endif %}
