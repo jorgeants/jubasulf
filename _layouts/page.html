@@ -5,15 +5,15 @@ body_class: page_template
 
 {% if page.image %}
 <div id="feature_image">
-  <div class="inner" style="background-image: url('{{ page.image }}')">
-    <img src='{{ page.image }}'>
+  <div class="inner" style="background-image: url('{{ page.image | prepend: site.github.url }}')">
+    <img src='{{ page.image | prepend: site.github.url }}'>
   </div>
 </div>
 {% endif %}
 
 <article role="main" class="{% if page.image %}image{% endif %}">
   <header>
-    <a href="{{ site.baseurl }}/" id="home_link">«</a>
+    <a href="{{ site.baseurl | prepend: site.github.url }}/" id="home_link">«</a>
     <h1>{{ page.title }}</h1>
   </header>
   <div class="text">

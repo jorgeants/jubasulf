@@ -11,14 +11,14 @@ body_class: "home-template user"
       <article class="{%comment%}post_class{%endcomment%}">
         {% if post.image %}
         <div class="image-holder show">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="inner" style="background-image: url('{{ post.image }}');">
-            <img src="{{ post.image }}">
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.github.url }}" class="inner" style="background-image: url('{{ post.image | prepend: site.github.url }}');">
+            <img src="{{ post.image | prepend: site.github.url }}">
           </a>
         </div>
         {% endif %}
         <div class="meta">
           <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
-            <a href="{{ post.url | prepend: site.baseurl }}">
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.github.url }}">
               {{ post.date | date: "%d de " }}
               {% assign m = post.date | date: "%-m" %}
               {% case m %}
@@ -40,11 +40,11 @@ body_class: "home-template user"
           </time>
         </div>
         <header>
-          <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+          <h1><a href="{{ post.url | prepend: site.baseurl | prepend: site.github.url }}">{{ post.title }}</a></h1>
         </header>
         <div class="text">
           <p>{{ post.excerpt }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Continue lendo</a>
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.github.url }}" class="readmore">Continue lendo</a>
         </div>
       </article>
       {% endfor %}
