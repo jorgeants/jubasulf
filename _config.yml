@@ -1,0 +1,24 @@
+title: "Jubasulf"
+logo: /content/images/jubasulf_logo.png
+email: contato@jubasulf.com.br
+description: >
+  Nós somos uma divisão da Associação Batista Sul Fluminense
+  que coordena o trabalho do jovem batista através das
+  juventudes da igreja local, de forma a proporcionar a capacitação
+  do jovem e a sua integração com os jovens de outras igrejas.
+url: "http://jubasulf.com.br"
+twitter_username: jubasulf
+facebook_username: jubasulf
+github_username:  jorgeants
+
+permalink: pretty
+paginate: 5
+
+markdown: kramdown
+highlighter: rouge
+
+timezone: America/Sao_Paulo
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate

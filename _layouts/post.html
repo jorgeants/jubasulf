@@ -1,0 +1,45 @@
+---
+layout: default
+body_class: post-template
+---
+
+{% if page.image %}
+<div id="feature_image">
+  <div class="inner" style="background-image: url('{{ page.image }}')">
+    <img src='{{ page.image }}'>
+  </div>
+</div>
+{% endif %}
+
+<article role="main" class="{% if page.image %}image{% endif %}">
+  <header>
+    <a href="{{ site.baseurl }}/" id="home_link">«</a>
+    <div class="meta">
+      <time datetime="{{ page.date | date:'%Y-%m-%d' }}"><a href="{{ page.url }}">
+        {{ page.date | date: "%d de " }}
+        {% assign m = page.date | date: "%-m" %}
+        {% case m %}
+          {% when '1' %}Janeiro
+          {% when '2' %}Favereiro
+          {% when '3' %}Março
+          {% when '4' %}Abril
+          {% when '5' %}Maio
+          {% when '6' %}Junho
+          {% when '7' %}Jullho
+          {% when '8' %}Agosto
+          {% when '9' %}Setembro
+          {% when '10' %}Outubro
+          {% when '11' %}Novembro
+          {% when '12' %}Dezembro
+        {% endcase %}
+        {{ page.date | date: " de %Y" }}
+      </a></time>
+    </div>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="text" id="js-post-content">
+    {{ content }}
+  </div>
+</article>
+
+{% include footer.html %}
