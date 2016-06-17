@@ -28,23 +28,23 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
 ## Faça agora a sua inscrição
 
 <div>
-    <form method="POST" action="http://localhost:8000/transformados6" accept-charset="UTF-8" class="form transForm bv-form" role="form" novalidate="novalidate"><input name="_token" type="hidden" value="f9kcTTQP4VEPnMWKJrIG8tSN1fRe27fA5DpLqkaJ">
+    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}" accept-charset="UTF-8" class="form transForm bv-form" role="form" novalidate="novalidate"><input name="_token" type="hidden" value="f9kcTTQP4VEPnMWKJrIG8tSN1fRe27fA5DpLqkaJ">
         
         <div class="row">
           <div class="col-xs-12 form-group">
             <label for="nome">Nome completo:</label>
             <input class="form-control" placeholder="Digite seu nome" name="nome" type="text" data-bv-field="nome">
-          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="nome" data-bv-result="NOT_VALIDATED" style="display: none;">Este campo não pode ficar vazio</small></div>
+          </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-3 form-group">
             <label for="cpf">CPF: </label>
             <input class="form-control cpf" placeholder="XXX.XXX.XXX-XX" name="cpf" type="text" data-bv-field="cpf" maxlength="14" autocomplete="off">
-          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="cpf" data-bv-result="NOT_VALIDATED" style="display: none;">Este campo não pode ficar vazio</small></div>
+          </div>
           <div class="col-xs-12 col-sm-3 form-group">
             <label for="dataNascimento">Data de nascimento: </label>
             <input class="form-control data" placeholder="01/01/1991" name="data_nascimento" type="text" data-bv-field="data_nascimento" maxlength="10" autocomplete="off">
-          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="data_nascimento" data-bv-result="NOT_VALIDATED" style="display: none;">Este campo não pode ficar vazio</small></div>
+         </div>
           <div class="col-xs-12 col-sm-4 form-group">
             <label for="sexo">Sexo:</label>
             <div class="radio">
@@ -63,11 +63,11 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="celular">Celular ou telefone: </label>
             <input class="form-control telefone required" placeholder="(XX)XXXXX-XXXX" name="celular" type="text" data-bv-field="celular" maxlength="14" autocomplete="off">
-          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="celular" data-bv-result="NOT_VALIDATED" style="display: none;">Este campo não pode ficar vazio</small></div>
+          </div>
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="exampleInputPassword1">E-mail: </label>
             <input class="form-control required" placeholder="Digite eu e-mail" name="email" type="email" data-bv-field="email">
-          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Este campo não pode ficar vazio</small><small class="help-block" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Insira um e-mail válido</small></div>
+          </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6 form-group">
