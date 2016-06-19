@@ -1,0 +1,40 @@
+{
+  "name": "jubasulf",
+  "version": "0.0.1",
+  "description": "Site da Jubasulf",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jubasulf"
+  ],
+  "author": "Jorge",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-phpunit": "~0.3.3",
+    "matchdep": "~0.3.0"
+  },
+  "dependencies": {
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-phpunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^1.0.1",
+    "matchdep": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeants/jubasulf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgeants/jubasulf/issues"
+  },
+  "homepage": "https://github.com/jorgeants/jubasulf#readme"
+}

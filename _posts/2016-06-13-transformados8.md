@@ -3,6 +3,7 @@ layout: post
 title: "Transformados 8 - O Despertar da Fé"
 image: /content/images/transformados8.jpg
 video: false
+permalink: /transformados8
 ---
 
 Fala galera da Jubasulf!
@@ -28,7 +29,7 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
 ## Faça agora a sua inscrição
 
 <div>
-    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}" accept-charset="UTF-8" class="form transForm bv-form" role="form" novalidate="novalidate"><input name="_token" type="hidden" value="f9kcTTQP4VEPnMWKJrIG8tSN1fRe27fA5DpLqkaJ">
+    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}/transformados8" accept-charset="UTF-8" class="form transForm bv-form" role="form" novalidate="novalidate"><input name="_token" type="hidden" value="f9kcTTQP4VEPnMWKJrIG8tSN1fRe27fA5DpLqkaJ">
         
         <div class="row">
           <div class="col-xs-12 form-group">
@@ -61,8 +62,8 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6 form-group">
-            <label for="celular">Celular ou telefone: </label>
-            <input class="form-control telefone required" placeholder="(XX)XXXXX-XXXX" name="celular" type="text" data-bv-field="celular" maxlength="14" autocomplete="off">
+            <label for="telefone">Celular ou telefone: </label>
+            <input class="form-control telefone required" placeholder="(XX)XXXXX-XXXX" name="telefone" type="text" data-bv-field="telefone" maxlength="14" autocomplete="off">
           </div>
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="exampleInputPassword1">E-mail: </label>
@@ -320,7 +321,7 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
 
         <div class="row">
           <div class="col-xs-12 form-group">
-            <button type="submit" class="btn btn-default">Enviar</button>
+            <button id="enviar" type="button" class="btn btn-default">Enviar</button>
           </div>
         </div>
 

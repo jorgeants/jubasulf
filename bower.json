@@ -1,0 +1,28 @@
+{
+  "name": "jubasulf",
+  "version": "0.0.1",
+  "authors": [
+    "Jorge Antônio da Silva <contato@jorgeants.com>"
+  ],
+  "description": "Site da Jubasulf.",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jubasulf"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "owlcarousel": "latest",
+    "bootstrap-sass-official": "latest",
+    "bootstrap-datepicker": "latest",
+    "select2": "latest",
+    "bootstrapValidator" : "latest",
+    "fancybox": "latest"
+  },
+  "homepage": "jubasulf.com.br",
+  "dependencies": {
+    "bootstrapValidator": "*"
+  }
+}
