@@ -33,6 +33,8 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
         
         <input name="receiverEmail" type="hidden" value="aislanwoa@gmail.com">  
         <input name="currency" type="hidden" value="BRL">
+        
+        <input name="encoding" type="hidden" value="UTF-8" />
 
         <input name="itemId1" type="hidden" value="0001">  
         <input name="itemDescription1" type="hidden" value="Inscrição para o Transformados 8 - Vaga em alojamento">  
