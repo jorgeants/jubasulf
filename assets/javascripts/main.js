@@ -145,7 +145,7 @@ $(document).ready(function() {
             $("input[name='senderPhone']").val(telefoneForPSPhone);
 
             //$("#transForm").attr('action',urlPagSeguro);
-            $("#transForm").attr('action','https://sandbox.pagseguro.uol.com.br/v2/checkout/payment.html');
+            $("#transForm").attr('action','https://pagseguro.uol.com.br/v2/checkout/payment.html');
             $("#transForm").submit();
 
         }else{
