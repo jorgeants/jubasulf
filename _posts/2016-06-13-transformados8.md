@@ -12,11 +12,11 @@ Faça logo a sua, e avise aos seus amigos pois são limitadas e estarão dispon�
 <br/>
 O Transformados é lugar de encontrar os amigos das outras Igrejas e conhecer gente nova, além também de permitir que Deus faça uma transformação em seu viver. Neste ano, convidamos toda a JUBASULF para um Despertar da Fé.
 
-##Localização
+## Localização
 
 A 8ª edição do Transformados acontecerá dos dias 22 a 24 de Julho no Sítio Recanto Sereno (Rua Santa Rita de Cássia, 1551, Varjão, Piraí-RJ).
 
-##Festa temática
+## Festa temática
 
 No sábado a noite, vai ter Festa Temática e esse ano todos devem estar caracterizados de CINEMA E TV.
 
@@ -29,22 +29,36 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
 ## Faça agora a sua inscrição
 
 <div>
-    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}/transformados8" accept-charset="UTF-8" class="form transForm bv-form" role="form" novalidate="novalidate"><input name="_token" type="hidden" value="f9kcTTQP4VEPnMWKJrIG8tSN1fRe27fA5DpLqkaJ">
+    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}/transformados8" accept-charset="UTF-8" class="form transForm bv-form" role="form">
         
+        <input name="receiverEmail" type="hidden" value="aislanwoa@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">
+
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Inscrição para o Transformados 8 - Vaga em alojamento">  
+        <input name="itemAmount1" type="hidden" value="120.00">  
+        <input name="itemQuantity1" type="hidden" value="1">
+        
+        <input name="reference" type="hidden" value="TRANS8">
+
+        <input name="redirectURL" type="hidden" value="http://jubasulf.com.br/transformados8-concluido">
+
+        <input name="shippingType" type="hidden" value="3">
+
         <div class="row">
           <div class="col-xs-12 form-group">
             <label for="nome">Nome completo:</label>
-            <input class="form-control" placeholder="Digite seu nome" name="nome" type="text" data-bv-field="nome">
+            <input class="form-control" placeholder="Digite seu nome" name="senderName" type="text" data-bv-field="nome">
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-3 form-group">
             <label for="cpf">CPF: </label>
-            <input class="form-control cpf" placeholder="XXX.XXX.XXX-XX" name="cpf" type="text" data-bv-field="cpf" maxlength="14" autocomplete="off">
+            <input class="form-control cpf" placeholder="XXX.XXX.XXX-XX" name="senderCPF" type="text" data-bv-field="cpf" maxlength="14" autocomplete="off">
           </div>
           <div class="col-xs-12 col-sm-3 form-group">
             <label for="dataNascimento">Data de nascimento: </label>
-            <input class="form-control data" placeholder="01/01/1991" name="data_nascimento" type="text" data-bv-field="data_nascimento" maxlength="10" autocomplete="off">
+            <input class="form-control data" placeholder="01/01/1991" name="senderBornDate" type="text" data-bv-field="data_nascimento" maxlength="10" autocomplete="off">
          </div>
           <div class="col-xs-12 col-sm-4 form-group">
             <label for="sexo">Sexo:</label>
@@ -64,10 +78,12 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="telefone">Celular ou telefone: </label>
             <input class="form-control telefone required" placeholder="(XX)XXXXX-XXXX" name="telefone" type="text" data-bv-field="telefone" maxlength="14" autocomplete="off">
+            <input name="senderAreaCode" type="hidden" value="">  
+            <input name="senderPhone" type="hidden" value="">
           </div>
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="exampleInputPassword1">E-mail: </label>
-            <input class="form-control required" placeholder="Digite eu e-mail" name="email" type="email" data-bv-field="email">
+            <input class="form-control required" placeholder="Digite eu e-mail" name="senderEmail" type="email" data-bv-field="email">
           </div>
         </div>
         <div class="row">
@@ -157,18 +173,18 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
             <label for="exampleInputPassword1">Estado: </label>
             <div class="radio">
               <label style="margin-right:20px;">
-                <input checked="checked" name="estado" type="radio" value="RJ">
+                <input checked="checked" name="shippingAddressState" type="radio" value="RJ">
                 Rio de Janeiro
               </label>
               <label>
-                <input name="estado" type="radio" value="Outros">
+                <input name="shippingAddressState" type="radio" value="Outros">
                 Outros
               </label>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="exampleInputPassword1">Cidade: </label>
-            <select id="cidade" name="cidade" class="form-control">
+            <select id="shippingAddressCity" name="shippingAddressCity" class="form-control">
               <option value="Angra dos Reis">Angra dos Reis</option>
               <option value="Aperibe">Aperibe</option>
               <option value="Araruama">Araruama</option>
