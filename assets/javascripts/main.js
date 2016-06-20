@@ -70,11 +70,12 @@ $(document).ready(function() {
         firebase.auth().signInAnonymously().catch(function(error) {
             var errorCode = error.code;
             var errorMessage = error.message;
+            console.log("Error", "("+errorCode+")"+errorMessage);
         });
 
         firebase.auth().onAuthStateChanged(function(user) {
 
-            console.log("Foi");
+            console.log(user);
 
             if (user) {
                 // User is signed in.
