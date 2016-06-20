@@ -67,20 +67,20 @@ $(document).ready(function() {
         var cpf = $("input[name='senderCPF']").val();
         cpf = cpf.replace(/[^0-9]+/g,'');
 
-        firebase.auth().signInAnonymously().catch(function(error) {
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            console.log("Error", "("+errorCode+")"+errorMessage);
-        });
+        // firebase.auth().signInAnonymously().catch(function(error) {
+        //     var errorCode = error.code;
+        //     var errorMessage = error.message;
+        //     console.log("Error", "("+errorCode+")"+errorMessage);
+        // });
 
-        firebase.auth().onAuthStateChanged(function(user) {
+        // firebase.auth().onAuthStateChanged(function(user) {
 
-            console.log(user);
+        //     console.log(user);
 
-            if (user) {
-                // User is signed in.
-                var isAnonymous = user.isAnonymous;
-                var uid = user.uid;
+        //     if (user) {
+        //         // User is signed in.
+        //         var isAnonymous = user.isAnonymous;
+        //         var uid = user.uid;
 
                 var d = new Date();
                 var n = d.getTime();
@@ -102,12 +102,12 @@ $(document).ready(function() {
                     forma_pagamento: $("input[name='pagamento']:checked").val()
                 });
 
-            } else {
-                // User is signed out.
-                alert("Ocorreu algum erro com cadastro.");
-            }
+        //     } else {
+        //         // User is signed out.
+        //         alert("Ocorreu algum erro com cadastro.");
+        //     }
 
-        });
+        // });
 
         if($("input[name='pagamento']:checked").val() == 'pagseguro'){
 
