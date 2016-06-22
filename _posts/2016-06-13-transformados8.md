@@ -8,23 +8,40 @@ permalink: /transformados8
 
 Fala galera da Jubasulf!
 As inscrições para o Transformados 8 estão abertas.
-Faça logo a sua, e avise aos seus amigos pois são limitadas e estarão disponíveis até o dia 15 de julho.
-<br/>
-O Transformados é lugar de encontrar os amigos das outras Igrejas e conhecer gente nova, além também de permitir que Deus faça uma transformação em seu viver. Neste ano, convidamos toda a JUBASULF para um Despertar da Fé.
+Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas.
+As inscrições vão até até o dia 15 de julho.
+
+## O congresso
+
+O Transformados é o lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF é convidada para um Despertar da Fé.
+
+## Festa temática
+
+Se prepare e capriche em sua fantasia, pois no sábado a noite, terá nossa tradicional Festa Temática. Vamos todos caracterizados de personagens de CINEMA E TV. Seja criativo! ;)
+
+## Preletores
+
+Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pastor de jovens e adolescentes da IB Conforto, Ismael da PIB Barra Mansa e Álisson da IB Betânia.
 
 ## Localização
 
 A 8ª edição do Transformados acontecerá dos dias 22 a 24 de Julho no Sítio Recanto Sereno (Rua Santa Rita de Cássia, 1551, Varjão, Piraí-RJ).
 
-## Festa temática
+## Intruções 
 
-No sábado a noite, vai ter Festa Temática e esse ano todos devem estar caracterizados de CINEMA E TV.
+Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento  rápido e seguro. E também contamos com o pagamento via depósito bancário, onde o valor da inscrição tem que ser depositado atráves dados a seguir:
 
-## Preletores
+<b>Valor: R$ 120,00</b>
 
-Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pastor de jovens e adolescentes da IB Conforto, Ismael da PIB Barra Mansa e Álisson da IB Betânia.
-<br/>
-É isso aí, esperamos você e a galera da sua Igreja!
+<b>Banco:</b> Bradesco <br/>
+<b>Agência:</b> 1339 <br/>
+<b>Conta poupança:</b> 21010-2 <br/>
+<b>Nome:</b> Aislan Washington de Oliveira Augusto <br/>
+Não esqueça de selecionar no terminal ou declarar para o funcionário do caixa que o depósito é em <b>CONTA POUPANÇA</b>.
+
+Após a confimação do pagamento, você receberá um e-mail com a confirmação.
+
+É isso aí, esperamos você e a galera da sua Igreja! :)
 
 ## Faça agora a sua inscrição
 
