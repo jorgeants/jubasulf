@@ -39,6 +39,8 @@ Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via Pa
 <b>Nome:</b> Aislan Washington de Oliveira Augusto <br/>
 Não esqueça de selecionar no terminal ou declarar para o funcionário do caixa que o depósito é em <b>CONTA POUPANÇA</b>.
 
+Ao efetuar o depósito, envie o comprovante para o e-mail contatojubasulf@gmail.com ou pelo WhatsApp no número (24)99961-3660.
+
 Após a confimação do pagamento, você receberá um e-mail com a confirmação.
 
 É isso aí, esperamos você e a galera da sua Igreja! :)
@@ -46,7 +48,7 @@ Após a confimação do pagamento, você receberá um e-mail com a confirmação
 ## Faça agora a sua inscrição
 
 <div>
-    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}/transformados8" accept-charset="UTF-8" class="form transForm bv-form" role="form">
+    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}/transformados8" accept-charset="UTF-8" class="form transForm" role="form">
         
         <input name="receiverEmail" type="hidden" value="aislanwoa@gmail.com">  
         <input name="currency" type="hidden" value="BRL">
@@ -67,17 +69,17 @@ Após a confimação do pagamento, você receberá um e-mail com a confirmação
         <div class="row">
           <div class="col-xs-12 form-group">
             <label for="nome">Nome completo:</label>
-            <input class="form-control" placeholder="Digite seu nome" name="senderName" type="text" data-bv-field="nome">
+            <input class="form-control" placeholder="Digite seu nome" name="senderName" type="text">
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-3 form-group">
             <label for="cpf">CPF: </label>
-            <input class="form-control cpf" placeholder="XXX.XXX.XXX-XX" name="senderCPF" type="text" data-bv-field="cpf" maxlength="14" autocomplete="off">
+            <input class="form-control cpf" placeholder="XXX.XXX.XXX-XX" name="senderCPF" type="text" maxlength="14" autocomplete="off">
           </div>
           <div class="col-xs-12 col-sm-3 form-group">
             <label for="dataNascimento">Data de nascimento: </label>
-            <input class="form-control data" placeholder="01/01/1991" name="senderBornDate" type="text" data-bv-field="data_nascimento" maxlength="10" autocomplete="off">
+            <input class="form-control data" placeholder="01/01/1991" name="senderBornDate" type="text" maxlength="10" autocomplete="off">
          </div>
           <div class="col-xs-12 col-sm-4 form-group">
             <label for="sexo">Sexo:</label>
@@ -96,13 +98,13 @@ Após a confimação do pagamento, você receberá um e-mail com a confirmação
         <div class="row">
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="telefone">Celular ou telefone: </label>
-            <input class="form-control telefone required" placeholder="(XX)XXXXX-XXXX" name="telefone" type="text" data-bv-field="telefone" maxlength="14" autocomplete="off">
+            <input class="form-control telefone required" placeholder="(XX)XXXXX-XXXX" name="telefone" type="text" maxlength="14" autocomplete="off">
             <input name="senderAreaCode" type="hidden" value="">  
             <input name="senderPhone" type="hidden" value="">
           </div>
           <div class="col-xs-12 col-sm-6 form-group">
             <label for="exampleInputPassword1">E-mail: </label>
-            <input class="form-control required" placeholder="Digite eu e-mail" name="senderEmail" type="email" data-bv-field="email">
+            <input class="form-control required" placeholder="Digite eu e-mail" name="senderEmail" type="email">
           </div>
         </div>
         <div class="row">
@@ -347,7 +349,7 @@ Após a confimação do pagamento, você receberá um e-mail com a confirmação
           <div class="col-xs-12">
             <div class="radio">
               <label style="margin-right:20px;">
-                <input name="pagamento" type="radio" value="deposito">
+                <input name="pagamento" type="radio" value="deposito" checked="checked">
                 Depósito bancário
               </label>
             </div>
@@ -356,7 +358,7 @@ Após a confimação do pagamento, você receberá um e-mail com a confirmação
 
         <div class="row">
           <div class="col-xs-12 form-group">
-            <button id="enviar" type="button" class="btn btn-default">Enviar</button>
+            <button id="enviar" type="submit" class="btn btn-default">Enviar</button>
           </div>
         </div>
 

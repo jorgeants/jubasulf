@@ -51,6 +51,48 @@ $(document).ready(function() {
             $("textarea[name='necessidades']").removeAttr("disabled", "disabled");
         }
     });
+    $('#transForm').bootstrapValidator({
+        fields: {
+            senderName: {
+                validators: {
+                    notEmpty: {
+                        message: 'Este campo não pode ficar vazio'
+                    },
+                }
+            },
+            senderCPF: {
+                validators: {
+                    notEmpty: {
+                        message: 'Este campo não pode ficar vazio'
+                    },
+                }
+            },
+            senderBornDate: {
+                validators: {
+                    notEmpty: {
+                        message: 'Este campo não pode ficar vazio'
+                    },
+                }
+            },
+            senderEmail: {
+                validators: {
+                    notEmpty: {
+                        message: 'Este campo não pode ficar vazio'
+                    },
+                    emailAddress: {
+                        message: 'Insira um e-mail válido'
+                    }
+                }
+            },
+            telefone: {
+                validators: {
+                    notEmpty: {
+                        message: 'Este campo não pode ficar vazio'
+                    },
+                }
+            }
+        }
+    });
 
     var config = {
         apiKey: "AIzaSyBfFlNqnW-0iqc0Y7MTHk8yKRA3XKP5S18",
@@ -62,52 +104,30 @@ $(document).ready(function() {
 
     var database = firebase.database();
 
-    var submitTransForm = function(){
+    $('#transForm').submit(function(event){
 
         var cpf = $("input[name='senderCPF']").val();
         cpf = cpf.replace(/[^0-9]+/g,'');
 
-        // firebase.auth().signInAnonymously().catch(function(error) {
-        //     var errorCode = error.code;
-        //     var errorMessage = error.message;
-        //     console.log("Error", "("+errorCode+")"+errorMessage);
-        // });
-
-        // firebase.auth().onAuthStateChanged(function(user) {
-
-        //     console.log(user);
-
-        //     if (user) {
-        //         // User is signed in.
-        //         var isAnonymous = user.isAnonymous;
-        //         var uid = user.uid;
-
-                var d = new Date();
-                var n = d.getTime();
-                
-                database.ref('usuarios/'+cpf).set({
-                    id: n,
-                    nome: $("input[name='senderName']").val(),
-                    cpf: $("input[name='senderCPF']").val(),
-                    data_nascimento: $("input[name='senderBornDate']").val(),
-                    sexo: $("input[name='sexo']").val(),
-                    email: $("input[name='senderEmail']").val(),
-                    telefone: $("input[name='telefone']").val(),
-                    juba: $( "#juba option:selected" ).val(),
-                    igreja: $("#igreja option:selected").val(),
-                    estado: $("input[name='shippingAddressState']:checked").val(),
-                    cidade: $("#shippingAddressCity option:selected").val(),
-                    responsavel: $("input[name='responsavel']").val(),
-                    necessidade: $("textarea[name='necessidades']").val(),
-                    forma_pagamento: $("input[name='pagamento']:checked").val()
-                });
-
-        //     } else {
-        //         // User is signed out.
-        //         alert("Ocorreu algum erro com cadastro.");
-        //     }
-
-        // });
+        var d = new Date();
+        var n = d.getTime();
+        
+        database.ref('usuarios/'+cpf).set({
+            id: n,
+            nome: $("input[name='senderName']").val(),
+            cpf: $("input[name='senderCPF']").val(),
+            data_nascimento: $("input[name='senderBornDate']").val(),
+            sexo: $("input[name='sexo']").val(),
+            email: $("input[name='senderEmail']").val(),
+            telefone: $("input[name='telefone']").val(),
+            juba: $( "#juba option:selected" ).val(),
+            igreja: $("#igreja option:selected").val(),
+            estado: $("input[name='shippingAddressState']:checked").val(),
+            cidade: $("#shippingAddressCity option:selected").val(),
+            responsavel: $("input[name='responsavel']").val(),
+            necessidade: $("textarea[name='necessidades']").val(),
+            forma_pagamento: $("input[name='pagamento']:checked").val()
+        });
 
         if($("input[name='pagamento']:checked").val() == 'pagseguro'){
 
@@ -115,55 +135,22 @@ $(document).ready(function() {
             var telefoneForPSArea = telefoneForPS.substr(0,2);
             var telefoneForPSPhone = (telefoneForPS>10) ? telefoneForPS.substr(-9) : telefoneForPS.substr(-8);
 
-            //Sandbox - Teste - Area de teste do Pagseguro - 7A45702776CB43549BFD5D414874E772
-            //Producao - 8CC003F0E85741A4B123B1CD753C0A03
-            //API - https://ws.sandbox.pagseguro.uol.com.br/v2/checkout/
-            //FORM - https://stc.sandbox.pagseguro.uol.com.br
-            // var urlPagSeguro = "https://stc.sandbox.pagseguro.uol.com.br/";
-            //     urlPagSeguro = urlPagSeguro + "email=aislanwoa@gmail.com";
-            //     urlPagSeguro = urlPagSeguro + "&token=7A45702776CB43549BFD5D414874E772";
-            //     urlPagSeguro = urlPagSeguro + "&currency=BRL";
-            //     urlPagSeguro = urlPagSeguro + "&itemId1=0001";
-            //     urlPagSeguro = urlPagSeguro + "&itemDescription1=Inscrição para o Transformados 8 - Vaga em alojamento";
-            //     urlPagSeguro = urlPagSeguro + "&itemAmount1=125.00";
-            //     urlPagSeguro = urlPagSeguro + "&itemQuantity1=1";
-            //     urlPagSeguro = urlPagSeguro + "&reference=TRANS8";
-            //     urlPagSeguro = urlPagSeguro + "&senderName="+$("input[name='nome']").val();
-            //     urlPagSeguro = urlPagSeguro + "&senderAreaCode="+telefoneForPSArea;
-            //     urlPagSeguro = urlPagSeguro + "&senderPhone="+telefoneForPSPhone;
-            //     urlPagSeguro = urlPagSeguro + "&senderEmail="+$("input[name='email']").val();
-            //     urlPagSeguro = urlPagSeguro + "&senderCPF="+cpf;
-            //     urlPagSeguro = urlPagSeguro + "&senderBornDate="+$("input[name='data_nascimento']").val();
-            //     urlPagSeguro = urlPagSeguro + "&shippingType=3";
-            //     urlPagSeguro = urlPagSeguro + "&shippingAddressCity="+$("#cidade option:selected").val();
-            //     urlPagSeguro = urlPagSeguro + "&shippingAddressState="+$("input[name='estado']:checked").val();
-            //     urlPagSeguro = urlPagSeguro + "&shippingAddressCountry=BRA";
-            //     urlPagSeguro = urlPagSeguro + "&redirectURL=http://jubasulf.com.br/transformados8-concluido";
-
-            // console.log(urlPagSeguro);
 
             $("input[name='senderAreaCode']").val(telefoneForPSArea);
             $("input[name='senderPhone']").val(telefoneForPSPhone);
 
-            //$("#transForm").attr('action',urlPagSeguro);
             $("#transForm").attr('action','https://pagseguro.uol.com.br/v2/checkout/payment.html');
-            $("#transForm").submit();
+            return true;
 
         }else{
 
-            window.location.href = '/transformados8-concluido';
+            if(cpf.length == 11)
+                window.location.href = '/transformados8-concluido';
 
         }
 
-    };
+        event.preventDefault();
 
-    $("#enviar").click(function(){
-        submitTransForm();
     });
-
-    // $("#transForm").submit(function(event){
-    //     submitTransForm();
-    //     event.preventDefault();
-    // });
 
 });
