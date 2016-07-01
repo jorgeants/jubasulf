@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  {% include head.html %}
+  <body class="{{ page.body_class }}">
+    {{ content }}
+    {{ if site.logo}}
+    <a href="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}" id="blog_badge" class="circle">
+      <span style="background-image: url('{{ site.logo | prepend: site.github.url }}')">{{ site.name }}</span>
+    </a>
+    {{/if}}
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script src="{{ '/assets/javascripts/jquery.min.js' | prepend: site.baseurl | prepend: site.github.url }}"></script>
+    <script src="{{ '/assets/javascripts/jquery.mask.min.js' | prepend: site.baseurl | prepend: site.github.url }}"></script>
+    <script src="{{ '/assets/javascripts/bootstrapValidator.min.js' | prepend: site.baseurl | prepend: site.github.url }}"></script>
+    <script src="{{ '/assets/javascripts/admin.js' | prepend: site.baseurl | prepend: site.github.url }}"></script>
+        
+  </body>
+</html>

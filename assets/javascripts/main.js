@@ -125,6 +125,7 @@ $(document).ready(function() {
             estado: $("input[name='shippingAddressState']:checked").val(),
             cidade: $("#shippingAddressCity option:selected").val(),
             responsavel: $("input[name='responsavel']").val(),
+            responsavel_telefone: $("input[name='responsavel_telefone']").val(),
             necessidade: $("textarea[name='necessidades']").val(),
             forma_pagamento: $("input[name='pagamento']:checked").val()
         });

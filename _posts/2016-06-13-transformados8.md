@@ -309,7 +309,7 @@ Após a confimação do pagamento, você receberá um e-mail com a confirmação
         <div class="row">
           <div class="col-xs-12 form-group">
             <label for="exampleInputPassword1">Telefone ou celular do pai, mãe ou resposável: </label>
-            <input class="form-control telefone" placeholder="(XX)XXXXX-XXXX" name="telefone_responsavel" type="text" maxlength="14" autocomplete="off">
+            <input class="form-control telefone" placeholder="(XX)XXXXX-XXXX" name="responsavel_telefone" type="text" maxlength="14" autocomplete="off">
           </div>
         </div>
         <div class="row">
