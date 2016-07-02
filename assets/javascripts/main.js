@@ -112,25 +112,29 @@ $(document).ready(function() {
         var d = new Date();
         var n = d.getTime();
         
-        database.ref('usuarios/'+cpf).set({
-            id: n,
-            nome: $("input[name='senderName']").val(),
-            cpf: $("input[name='senderCPF']").val(),
-            data_nascimento: $("input[name='senderBornDate']").val(),
-            sexo: $("input[name='sexo']").val(),
-            email: $("input[name='senderEmail']").val(),
-            telefone: $("input[name='telefone']").val(),
-            juba: $( "#juba option:selected" ).val(),
-            igreja: $("#igreja option:selected").val(),
-            estado: $("input[name='shippingAddressState']:checked").val(),
-            cidade: $("#shippingAddressCity option:selected").val(),
-            responsavel: $("input[name='responsavel']").val(),
-            responsavel_telefone: $("input[name='responsavel_telefone']").val(),
-            necessidade: $("textarea[name='necessidades']").val(),
-            forma_pagamento: $("input[name='pagamento']:checked").val()
-        });
+        if(cpf.length == 11){
+            database.ref('usuarios/'+cpf).set({
+                id: n,
+                nome: $("input[name='senderName']").val(),
+                cpf: $("input[name='senderCPF']").val(),
+                data_nascimento: $("input[name='senderBornDate']").val(),
+                sexo: $("input[name='sexo']").val(),
+                email: $("input[name='senderEmail']").val(),
+                telefone: $("input[name='telefone']").val(),
+                juba: $( "#juba option:selected" ).val(),
+                igreja: $("#igreja option:selected").val(),
+                estado: $("input[name='shippingAddressState']:checked").val(),
+                cidade: $("#shippingAddressCity option:selected").val(),
+                responsavel: $("input[name='responsavel']").val(),
+                responsavel_telefone: $("input[name='responsavel_telefone']").val(),
+                necessidade: $("textarea[name='necessidades']").val(),
+                forma_pagamento: $("input[name='pagamento']:checked").val()
+            });
+        }else{
+            alert("Se atente aos campos obrigatórios!");
+        }
 
-        if($("input[name='pagamento']:checked").val() == 'pagseguro'){
+        if($("input[name='pagamento']:checked").val() == 'pagseguro' && cpf.length == 11){
 
             var telefoneForPS = $("input[name='telefone']").val().replace(/[^0-9]+/g,'');
             var telefoneForPSArea = telefoneForPS.substr(0,2);
