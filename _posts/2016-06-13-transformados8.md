@@ -84,12 +84,8 @@ Após a confimação do pagamento, você receberá um e-mail com a confirmação
           <div class="col-xs-12 col-sm-4 form-group">
             <label for="sexo">Sexo:</label>
             <div class="radio">
-              <label style="margin-right:20px;">
-                <input checked="checked" name="sexo" type="radio" value="Masculino">
-                Masculino
-              </label>
               <label>
-                <input name="sexo" type="radio" value="Feminino">
+                <input name="sexo" checked="checked" type="radio" value="Feminino">
                 Feminino
               </label>
             </div>
