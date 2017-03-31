@@ -6,12 +6,36 @@ video: false
 permalink: /transformados8
 ---
 
-Fala galera da Jubasulf!
-As inscrições para o Transformados 8 estão abertas.
-Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas.
-As inscrições vão até até o dia 15 de julho.
+Fala galera da Jubasulf! As inscrições para o Transformados 9 estão abertas. Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas. As inscrições vão até o dia 5 de julho.
+O Transformados é o lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF estará em união louvando e engradecendo o nome do Senhor.
 
-## O congresso
+Se prepare e use a sua criatividade, pois no sábado à noite, terá nossa tradicional Festa Temática que neste ano terá o tema: NEON. 
+
+A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio Sonho Meu (Rua Vinte e Um de Abril, 318 - Roma, Volta Redonda - RJ).
+
+## Intruções
+ 
+Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via depósito bancário, onde o valor da inscrição tem que ser depositado através dados a seguir:
+
+<b>Valor: R$ 100,00</b>
+ 
+Banco do Brasil
+<b>Agência:</b> 0469-3 
+<b>Conta poupança:</b> 59780-5 
+<b>Variação:</b> 51 
+<b>Nome:</b> Danielle França de Oliveira 
+
+Não se esqueça de selecionar no terminal ou declarar para o funcionário do caixa que o depósito é em CONTA POUPANÇA.
+OBS: Para inscrições efetuadas até o dia 01 de junho o valor será de R$90,00.
+ 
+Ao efetuar o depósito, envie o comprovante para o e-mail contatojubasulf@gmail.com ou pelo WhatsApp no número (24)988343238.
+ 
+Após a efetuar do pagamento, você receberá um e-mail com a confirmação.
+ 
+É isso aí, esperamos você e a galera da sua Igreja! :)
+
+
+<!--## O congresso
 
 O Transformados é o lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF é convidada para um Despertar da Fé.
 
@@ -25,9 +49,9 @@ Receberemos os pastores Davidson Breves da IB Monte Cristo, Elvino Pinheiro, pas
 
 ## Localização
 
-A 8ª edição do Transformados acontecerá dos dias 22 a 24 de Julho no Sítio Recanto Sereno (Rua Santa Rita de Cássia, 1551, Varjão, Piraí-RJ).
+A 8ª edição do Transformados acontecerá dos dias 22 a 24 de Julho no Sítio Recanto Sereno (Rua Santa Rita de Cássia, 1551, Varjão, Piraí-RJ).-->
 
-## Intruções 
+<!-- 
 
 Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento  rápido e seguro. E também contamos com o pagamento via depósito bancário, onde o valor da inscrição tem que ser depositado atráves dados a seguir:
 
@@ -38,6 +62,8 @@ Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via Pa
 <b>Conta poupança:</b> 21010-2 <br/>
 <b>Nome:</b> Aislan Washington de Oliveira Augusto <br/>
 Não esqueça de selecionar no terminal ou declarar para o funcionário do caixa que o depósito é em <b>CONTA POUPANÇA</b>.
+
+-->
 
 Ao efetuar o depósito, envie o comprovante para o e-mail contatojubasulf@gmail.com ou pelo WhatsApp no número (24)99961-3660.
 
