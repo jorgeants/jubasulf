@@ -65,28 +65,22 @@ Não esqueça de selecionar no terminal ou declarar para o funcionário do caixa
 
 -->
 
-Ao efetuar o depósito, envie o comprovante para o e-mail contatojubasulf@gmail.com ou pelo WhatsApp no número (24)99961-3660.
-
-Após a confimação do pagamento, você receberá um e-mail com a confirmação.
-
-É isso aí, esperamos você e a galera da sua Igreja! :)
-
 ## Inscreva-se agora
 
 <div>
     <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}/transformados8" accept-charset="UTF-8" class="form transForm" role="form">
         
-        <input name="receiverEmail" type="hidden" value="aislanwoa@gmail.com">  
+        <input name="receiverEmail" type="hidden" value="afonso.franca@gmail.com">  
         <input name="currency" type="hidden" value="BRL">
         
         <input name="encoding" type="hidden" value="UTF-8" />
 
         <input name="itemId1" type="hidden" value="0001">  
         <input name="itemDescription1" type="hidden" value="Inscrição para o Transformados 8 - Vaga em alojamento">  
-        <input name="itemAmount1" type="hidden" value="120.00">  
+        <input name="itemAmount1" type="hidden" value="100.00">  
         <input name="itemQuantity1" type="hidden" value="1">
         
-        <input name="reference" type="hidden" value="TRANS8">
+        <input name="reference" type="hidden" value="TRANS9">
 
         <input name="redirectURL" type="hidden" value="http://jubasulf.com.br/transformados8-concluido">
 
