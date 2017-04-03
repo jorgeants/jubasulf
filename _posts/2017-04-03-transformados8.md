@@ -7,7 +7,7 @@ permalink: /transformados9
 ---
 
 Fala galera da Jubasulf! As inscrições para o Transformados 9 estão abertas. Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas. As inscrições vão até o dia 5 de julho.
-
+<br>
 
 O Transformados é o lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF estará em união louvando e engradecendo o nome do Senhor.
 
