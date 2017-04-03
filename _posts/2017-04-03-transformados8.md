@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Transformados 9"
-image: /content/images/transformados8.jpg
+image: /content/images/transformados9.jpg
 video: false
 permalink: /transformados9
 ---
