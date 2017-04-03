@@ -18,7 +18,7 @@ A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio 
 <br>
 Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via depósito bancário, onde o valor da inscrição tem que ser depositado através dados a seguir:
 
-<b>Valor: R$ 100,00</b>
+<b>Valor: R$ 90,00</b>
  
 Banco do Brasil
 <b>Agência:</b> 0469-3 
@@ -67,6 +67,8 @@ Não esqueça de selecionar no terminal ou declarar para o funcionário do caixa
 -->
 
 ## Inscreva-se agora
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebqGsSXhx1JoPV9kc6LunPixU8JU69YO7zWZCt1BPDaOrVlw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <div>
     <form method="POST" id="transForm" action="http://jubasulf.com.br/transformados8" accept-charset="UTF-8" class="form transForm" role="form">
