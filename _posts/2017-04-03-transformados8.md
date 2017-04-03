@@ -14,8 +14,7 @@ Se prepare e use a sua criatividade, pois no sábado à noite, terá nossa tradi
 <br>
 A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio Sonho Meu (Rua Vinte e Um de Abril, 318 - Roma, Volta Redonda - RJ).
 <br>
-## Intruções
-<br>
+## Instruções
 Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via <b>depósito bancário</b>, onde o valor da inscrição tem que ser depositado através dados a seguir:
 <br>
 <b>Valor: R$ 90,00</b><br>
