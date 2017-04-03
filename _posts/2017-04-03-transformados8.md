@@ -8,19 +8,14 @@ permalink: /transformados9
 
 Fala galera da Jubasulf! As inscrições para o Transformados 9 estão abertas. Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas. As inscrições vão até o dia 5 de julho.
 <br>
-<br>
 O Transformados é o lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF estará em união louvando e engradecendo o nome do Senhor.
-<br>
 <br>
 Se prepare e use a sua criatividade, pois no sábado à noite, terá nossa tradicional Festa Temática que neste ano terá o tema: NEON. 
 <br>
-<br>
 A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio Sonho Meu (Rua Vinte e Um de Abril, 318 - Roma, Volta Redonda - RJ).
-<br>
 <br>
 ## Intruções
 <br>
-<br> 
 Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via depósito bancário, onde o valor da inscrição tem que ser depositado através dados a seguir:
 
 <b>Valor: R$ 100,00</b>
@@ -74,7 +69,7 @@ Não esqueça de selecionar no terminal ou declarar para o funcionário do caixa
 ## Inscreva-se agora
 
 <div>
-    <form method="POST" id="transForm" action="{{ site.baseurl | prepend: site.github.url | prepend: site.url }}/transformados8" accept-charset="UTF-8" class="form transForm" role="form">
+    <form method="POST" id="transForm" action="http://jubasulf.com.br/transformados8" accept-charset="UTF-8" class="form transForm" role="form">
         
         <input name="receiverEmail" type="hidden" value="afonso.franca@gmail.com">  
         <input name="currency" type="hidden" value="BRL">
