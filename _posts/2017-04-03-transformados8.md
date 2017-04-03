@@ -17,24 +17,24 @@ A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio 
 ## Intruções
 <br>
 Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via depósito bancário, onde o valor da inscrição tem que ser depositado através dados a seguir:
-
-<b>Valor: R$ 90,00</b>
- 
-Banco do Brasil
-<b>Agência:</b> 0469-3 
-<b>Conta poupança:</b> 59780-5 
-<b>Variação:</b> 51 
+<br>
+<b>Valor: R$ 90,00</b><br>
+<br>
+Banco do Brasil<br>
+<b>Agência:</b> 0469-3<br> 
+<b>Conta poupança:</b> 59780-5<br> 
+<b>Variação:</b> 51<br>
 <b>Nome:</b> Danielle França de Oliveira 
-
+<br>
 Não se esqueça de selecionar no terminal ou declarar para o funcionário do caixa que o depósito é em CONTA POUPANÇA.
 OBS: Para inscrições efetuadas até o dia 01 de junho o valor será de R$90,00.
- 
+<br>
 Ao efetuar o depósito, envie o comprovante para o e-mail contatojubasulf@gmail.com ou pelo WhatsApp no número (24)988343238.
- 
+<br>
 Após a efetuar do pagamento, você receberá um e-mail com a confirmação.
- 
+<br> 
 É isso aí, esperamos você e a galera da sua Igreja! :)
-
+<br>
 ## Inscreva-se agora
 <a href="https://goo.gl/forms/hwCObQWaahjG5Q802" target="_blank">Faça sua inscrição clicando aqui</a>
 
