@@ -68,7 +68,7 @@ Não esqueça de selecionar no terminal ou declarar para o funcionário do caixa
 
 ## Inscreva-se agora
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebqGsSXhx1JoPV9kc6LunPixU8JU69YO7zWZCt1BPDaOrVlw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebqGsSXhx1JoPV9kc6LunPixU8JU69YO7zWZCt1BPDaOrVlw/viewform?embedded=true" width="790" height="1024" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <div>
     <form method="POST" id="transForm" action="http://jubasulf.com.br/transformados8" accept-charset="UTF-8" class="form transForm" role="form">
