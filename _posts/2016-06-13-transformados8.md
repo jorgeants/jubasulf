@@ -1,19 +1,25 @@
 ---
 layout: post
-title: "Transformados 8 - O Despertar da Fé"
+title: "Transformados 9"
 image: /content/images/transformados8.jpg
 video: false
 permalink: /transformados8
 ---
 
 Fala galera da Jubasulf! As inscrições para o Transformados 9 estão abertas. Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas. As inscrições vão até o dia 5 de julho.
+
+
 O Transformados é o lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF estará em união louvando e engradecendo o nome do Senhor.
+
 
 Se prepare e use a sua criatividade, pois no sábado à noite, terá nossa tradicional Festa Temática que neste ano terá o tema: NEON. 
 
+
 A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio Sonho Meu (Rua Vinte e Um de Abril, 318 - Roma, Volta Redonda - RJ).
 
+
 ## Intruções
+ 
  
 Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via depósito bancário, onde o valor da inscrição tem que ser depositado através dados a seguir:
 
