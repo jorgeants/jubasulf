@@ -10,7 +10,9 @@ body_class: "home-template user"
       {% for post in paginator.posts %}
       <article class="{%comment%}post_class{%endcomment%}">
         {% if post.image %}
-        <div class="image-holder show">
+        <div class="image-holder show" style="-webkit-box-shadow: 0px 2px 22px -4px rgba(0,0,0,0.36);
+-moz-box-shadow: 0px 2px 22px -4px rgba(0,0,0,0.36);
+box-shadow: 0px 2px 22px -4px rgba(0,0,0,0.36);">
           <a href="{{ post.permalink | prepend: site.baseurl | prepend: site.github.url }}" class="inner" style="background-image: url('{{ post.image | prepend: site.github.url }}');">
             <img src="{{ post.image | prepend: site.github.url }}">
           </a>
