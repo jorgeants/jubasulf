@@ -38,7 +38,11 @@ Após a efetuar do pagamento, você receberá um e-mail com a confirmação.
 <br>
 ## Inscreva-se agora
 <br>
-<a href="https://goo.gl/forms/hwCObQWaahjG5Q802" target="_blank">Faça sua inscrição clicando aqui</a>
+<a href="https://goo.gl/forms/hwCObQWaahjG5Q802" target="_blank" style="background-color: #1d7cf4;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;">Faça sua inscrição clicando aqui!</a>
 
 #### Comenta aí jovem
 
