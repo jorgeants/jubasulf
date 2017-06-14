@@ -17,7 +17,7 @@ A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio 
 ## Instruções
 Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via <b>depósito bancário</b>, onde o valor da inscrição tem que ser depositado através dados a seguir:
 <br>
-<b>Valor: R$ 90,00</b><br>
+<b>Valor: R$ 100,00</b><br>
 <br>
 <b>Banco do Brasil</b><br>
 <b>Agência:</b> 0469-3<br> 
