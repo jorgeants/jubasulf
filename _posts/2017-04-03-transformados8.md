@@ -1,21 +1,29 @@
 ---
 layout: post
 title: "Transformados 10"
-image: content/images/WhatsApp Image 2018-05-15 at 16.29.23.jpeg
+image: /content/images/WhatsApp Image 2018-05-15 at 16.29.23.jpeg
 video: false
 permalink: /transformados10
 ---
 
-Fala galera da Jubasulf! As inscrições para o Transformados 9 estão abertas. Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas. As inscrições vão até o dia 5 de julho.
-<br>
-O Transformados é o lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF estará em união louvando e engradecendo o nome do Senhor.
-<br>
-Se prepare e use a sua criatividade, pois no sábado à noite, terá nossa tradicional Festa Temática que neste ano terá o tema: NEON. 
-<br>
-A 9ª edição do Transformados acontecerá dos dias 21 a 23 de Julho no Sítio Sonho Meu (Rua Vinte e Um de Abril, 318 - Roma, Volta Redonda - RJ).
-<br>
+Fala galera da Jubasulf! As inscrições para o Transformados 10 estão abertas. Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas. As inscrições vão até o dia 8 de julho.
+
+O Transformados é um congresso para jovens de adolescentes, um lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF estará em união louvando e engrandecendo o nome do Senhor. Vá de coração aberto para ouvir e deixar Deus transformar a sua vida, através da sua Graça que salva!
+
+Se prepare pois no sábado à noite, terá nossa tradicional Festa Temática, que neste ano terá o tema: Super herói. Não fique preso em alugar fantasia, use a criatividade!
+
+A 10ª edição do Transformados acontecerá dos dias 20 a 22 de Julho no Sítio Manancial (Rodovia Presidente Dutra, nº100, Km 253, Arrozal, Piraí- RJ)  <a href="https://www.facebook.com/SitioManancialPirai">Link para o site do sítio</a>
+
 ## Instruções
-Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via <b>depósito bancário</b>, onde o valor da inscrição tem que ser depositado através dados a seguir:
+Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</a> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via <b>depósito bancário</b>.
+
+### Valores:
+* Pagamento até 30 de maio: R$115,00.
+* Pagamento até 30 de junho: R$125,00.
+* Pagamento após 30 de junho: R$130,00.
+
+É isso aí, esperamos você e a galera da sua Igreja! 
+
 <br>
 <b>Valor: R$ 100,00</b><br>
 <br>
@@ -37,7 +45,9 @@ Após a efetuar do pagamento, você receberá um e-mail com a confirmação.
 <br>
 ## Inscreva-se agora
 <br>
-<a href="https://goo.gl/forms/hwCObQWaahjG5Q802" target="_blank" style="background-color: #1d7cf4;
+
+
+<a href="https://goo.gl/forms/gjgoXOW3dkh4Bsj52" target="_blank" style="background-color: #1d7cf4;
     display: inline-block;
     padding: 10px 20px;
     color: white;
