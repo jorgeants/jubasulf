@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Transformados 9"
-image: /content/images/transformados9.jpg
+image: https://dl2.pushbulletusercontent.com/PZu4bj3losyeMVilJ2VsoFX91FCqcWf0/WhatsApp%20Image%202018-05-15%20at%2016.29.23.jpeg
 video: false
 permalink: /transformados9
 ---
