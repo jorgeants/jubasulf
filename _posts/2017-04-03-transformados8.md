@@ -8,19 +8,26 @@ permalink: /transformados10
 
 Fala galera da Jubasulf! As inscrições para o Transformados 10 estão abertas. Faça logo a sua e avise aos seus amigos, pois as vagas são limitadas. As inscrições vão até o dia 8 de julho.
 <br>
+
 O Transformados é um congresso para jovens de adolescentes, um lugar ideal para encontrar amigos de outras Igrejas e conhecer gente nova. Um espaço ideal para te ajudar a se permitir que Deus faça uma transformação em seu viver. Neste ano, toda galera da JUBASULF estará em união louvando e engrandecendo o nome do Senhor. Vá de coração aberto para ouvir e deixar Deus transformar a sua vida, através da sua Graça que salva!
 <br>
+
 Se prepare pois no sábado à noite, terá nossa tradicional Festa Temática, que neste ano terá o tema: Super herói. Não fique preso em alugar fantasia, use a criatividade!
 <br>
+
 A 10ª edição do Transformados acontecerá dos dias 20 a 22 de Julho no Sítio Manancial (Rodovia Presidente Dutra, nº100, Km 253, Arrozal, Piraí- RJ)  <a href="https://www.facebook.com/SitioManancialPirai">Link para o site do sítio</a>
 <br>
+
 ## Instruções
-Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</a> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via <b>depósito bancário</b>.
+Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via PagSeguro. Um pagamento rápido e seguro. E também contamos com o pagamento via <b>depósito bancário</b>.
 <br>
 ### Valores:
+
 * Pagamento até 30 de maio: R$115,00.
 * Pagamento até 30 de junho: R$125,00.
 * Pagamento após 30 de junho: R$130,00.
+
+
 <br>
 É isso aí, esperamos você e a galera da sua Igreja! 
 <br>
