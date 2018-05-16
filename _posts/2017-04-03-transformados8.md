@@ -31,8 +31,6 @@ Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via Pa
 <br>
 É isso aí, esperamos você e a galera da sua Igreja! 
 <br>
-<b>Valor: R$ 100,00</b><br>
-<br>
 <b>Banco do Brasil</b><br>
 <b>Agência:</b> 0469-3<br> 
 <b>Conta poupança:</b> 59780-5<br> 
