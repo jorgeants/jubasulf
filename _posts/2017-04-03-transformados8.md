@@ -39,7 +39,6 @@ Disponibilizamos a facilidade do pagamento com <b>cartão de crédito</b> via Pa
 <br>
 <br>
 Não se esqueça de selecionar no terminal ou declarar para o funcionário do caixa que o depósito é em CONTA POUPANÇA.
-OBS: Para inscrições efetuadas até o dia 01 de junho o valor será de R$90,00.
 <br>
 Ao efetuar o depósito, envie o comprovante para o e-mail contatojubasulf@gmail.com ou pelo WhatsApp no número (24)988343238.
 <br>
